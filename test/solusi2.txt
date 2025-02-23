@@ -1,0 +1,9 @@
+Solusi ditemukan!
+
+AAA
+BBC
+CCC
+
+Estimasi waktu penyelesaian: 0.0142ms
+
+Banyak percobaan: 3

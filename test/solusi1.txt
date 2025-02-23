@@ -1,0 +1,11 @@
+Solusi ditemukan!
+
+ABBCC
+AABCD
+EEEDD
+EEFFF
+GGGFF
+
+Estimasi waktu penyelesaian: 5.1962ms
+
+Banyak percobaan: 1256

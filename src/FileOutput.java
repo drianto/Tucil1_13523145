@@ -44,6 +44,9 @@ public class FileOutput {
             String ans = inputFile.nextLine().trim();
             if (ans.equalsIgnoreCase("ya")) {
                 saveSolutionFile(lines);
+            } else {
+                System.out.println();
+                System.out.println("Solusi tidak akan disimpan.");
             }
         } else {
             System.out.println("Tidak ada input yang tersedia, solusi tidak disimpan.");

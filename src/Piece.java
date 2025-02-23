@@ -18,28 +18,37 @@ public class Piece {
         if (row == 0) {
             return null;  
         } 
-
+    
         int maxLength = 0;
         for (String line : pieceLines) {
-            maxLength = Math.max(maxLength, line.trim().length());
+            maxLength = Math.max(maxLength, line.length());
+        }
+    
+        char[][] shape = new char[row][maxLength];
+    
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < maxLength; j++) {
+                shape[i][j] = ' ';
+            }
         }
 
-        char[][] shape = new char[row][maxLength];
         for (int i = 0; i < row; i++) {
-            char[] rowChars = pieceLines[i].trim().toCharArray();
-            int column = rowChars.length;
-
+            char[] rowChars = pieceLines[i].toCharArray();
+            for (int j = 0; j < rowChars.length; j++) {
+                shape[i][j] = rowChars[j];
+            }
+        }
+    
+        for (int i = 0; i < row; i++) {
             for (int j = 0; j < maxLength; j++) {
-                if (j < column) {
-                    shape[i][j] = rowChars[j];
-                } else {
+                if (shape[i][j] == ' ') {
                     shape[i][j] = '0';
                 }
             }
         }
-
+    
         return shape;
-    }
+    }    
 
     public static void printPiece(char[][] shape) {
         for (char[] row : shape) {

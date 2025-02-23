@@ -1,0 +1,11 @@
+Solusi ditemukan!
+
+AAABCFDDDEE
+AHABCFFDEEG
+KHBBCCCIIEG
+KHHBLLIIJJG
+KKHLLLIJJGG
+
+Estimasi waktu penyelesaian: 15349.6228ms
+
+Banyak percobaan: 8841807

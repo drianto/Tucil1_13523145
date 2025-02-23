@@ -1,0 +1,9 @@
+Solusi ditemukan!
+
+ABBBBBBGGG
+ABBCDDFGHG
+AAEEEDFGGG
+
+Estimasi waktu penyelesaian: 4213.2753ms
+
+Banyak percobaan: 5138578
